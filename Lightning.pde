@@ -30,7 +30,7 @@ while(endX>=0 && endX<500 && endY>=0 && endY<=500){
    line(startX,startY,endX,endY); 
    startX= endX;
    startY=endY;
-    println("Coordinates: "+startX+", "+startY+","+endX+", "+endY+"   ");
+    //println("Coordinates: "+startX+", "+startY+","+endX+", "+endY+"   ");
 }
 strokeWeight(10);
 stroke(255);
